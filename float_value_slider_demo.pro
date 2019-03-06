@@ -26,10 +26,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        widget.cpp
+        widget.cpp \
+        float_value_slider.cpp
 
 HEADERS += \
-        widget.h
+        widget.h \
+        float_value_slider.h
 
 FORMS += \
         widget.ui
